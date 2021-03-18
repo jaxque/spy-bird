@@ -123,3 +123,4 @@ Received Import Request.
 Start importing Assets/Scenes/Title Screen.unity using Guid(6e8ea1ac8ee5bc742bdb74d66a81a77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8ce5de9feea90ad231e5df72830600') in 0.005860 seconds
   Import took 0.007530 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
