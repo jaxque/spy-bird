@@ -2088,8 +2088,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.8198466, y: 0.96557003, z: 0.89459205}
-  m_Center: {x: 0.96557, y: 0.48278502, z: 0}
+  m_Size: {x: 2.8198466, y: 1.0042206, z: 0.89459205}
+  m_Center: {x: 0.96556985, y: 0.5021103, z: 0}
 --- !u!1001 &418277419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3935,6 +3935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesh_Wall_Door
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48b546e2cb88f2c4e9a16cc087bed287, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48b546e2cb88f2c4e9a16cc087bed287, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3990,6 +3994,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 48b546e2cb88f2c4e9a16cc087bed287, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 48b546e2cb88f2c4e9a16cc087bed287, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 48b546e2cb88f2c4e9a16cc087bed287, type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -4288,8 +4296,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.8198466, y: 0.96557003, z: 0.89459205}
-  m_Center: {x: 0.96557, y: 0.48278502, z: 0}
+  m_Size: {x: 2.8198466, y: 1.0055126, z: 0.89459205}
+  m_Center: {x: 0.96556985, y: 0.5027563, z: 0}
 --- !u!1001 &1034649342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5328,8 +5336,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.8198466, y: 0.96557003, z: 0.89459205}
-  m_Center: {x: 0.96557, y: 0.48278502, z: 0}
+  m_Size: {x: 2.8198466, y: 1.0071199, z: 0.89459205}
+  m_Center: {x: 0.96556985, y: 0.50355995, z: 0}
 --- !u!1001 &1345995529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6612,8 +6620,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.8198466, y: 0.96557003, z: 0.89459205}
-  m_Center: {x: 0.96557, y: 0.48278502, z: 0}
+  m_Size: {x: 2.8198466, y: 1.0002044, z: 0.89459205}
+  m_Center: {x: 0.96556985, y: 0.5001022, z: 0}
 --- !u!1001 &1636633020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6939,6 +6947,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 8f747c61c6f15754b99fb57be237571c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 8f747c61c6f15754b99fb57be237571c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 8f747c61c6f15754b99fb57be237571c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7402,8 +7414,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.8198466, y: 0.96557003, z: 0.89459205}
-  m_Center: {x: 0.96557, y: 0.48278502, z: 0}
+  m_Size: {x: 2.8198466, y: 1.0136851, z: 0.89459205}
+  m_Center: {x: 0.96556985, y: 0.50684255, z: 0}
 --- !u!1 &1794613089
 GameObject:
   m_ObjectHideFlags: 0
