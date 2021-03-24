@@ -378,7 +378,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
-  wingFlaps: 0
+  wingFlaps: 4
 --- !u!114 &10212067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -927,6 +927,10 @@ PrefabInstance:
       value: mesh_recepcionisttable
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 16ed1442f6f4e93409002d0f5fec73cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 16ed1442f6f4e93409002d0f5fec73cc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -1121,6 +1125,10 @@ PrefabInstance:
       value: mesh_l_table
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1ecf1a56521a0df459d3e2497fc5a210, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1ecf1a56521a0df459d3e2497fc5a210, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -1287,6 +1295,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_Name
       value: mesh_desk_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1578,12 +1590,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100000, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1592,6 +1616,10 @@ PrefabInstance:
     - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_Name
       value: mesh_sofa
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1671,8 +1699,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.7468467, y: 1.0953153, z: 1.104997}
-  m_Center: {x: -0.0032827854, y: 0.558757, z: 0.0049652457}
+  m_Size: {x: 2.7468467, y: 1.037021, z: 1.104997}
+  m_Center: {x: -0.0032827854, y: 0.52960986, z: 0.0049652457}
 --- !u!1 &249340969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,6 +2185,10 @@ PrefabInstance:
       value: mesh_table_b_01 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -2541,6 +2573,10 @@ PrefabInstance:
       value: mesh_desk_01
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -2737,6 +2773,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_Name
       value: mesh_desk_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3290,6 +3330,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_Name
       value: mesh_desk_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4141,7 +4185,7 @@ GameObject:
   - component: {fileID: 836527859}
   - component: {fileID: 836527858}
   - component: {fileID: 836527862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4929,6 +4973,10 @@ PrefabInstance:
       value: mesh_table_b_01
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -5006,8 +5054,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.8198466, y: 1.0055126, z: 0.89459205}
-  m_Center: {x: 0.96556985, y: 0.5027563, z: 0}
+  m_Size: {x: 2.8198466, y: 0.97775394, z: 0.89459205}
+  m_Center: {x: 0.96556985, y: 0.48887697, z: 0}
 --- !u!1 &1030896433 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100048, guid: e6cfeff43f9f8d34b88b0b612909ac29, type: 3}
@@ -5153,6 +5201,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_Name
       value: mesh_desk_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5424,6 +5476,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1ecf1a56521a0df459d3e2497fc5a210, type: 3}
       propertyPath: m_Name
       value: mesh_l_table (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1ecf1a56521a0df459d3e2497fc5a210, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1ecf1a56521a0df459d3e2497fc5a210, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6428,6 +6484,10 @@ PrefabInstance:
       value: mesh_table_b_01 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -7067,12 +7127,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100000, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7081,6 +7153,10 @@ PrefabInstance:
     - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_Name
       value: mesh_sofa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7160,8 +7236,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.7468467, y: 1.0953153, z: 1.104997}
-  m_Center: {x: -0.0032827854, y: 0.558757, z: 0.0049652457}
+  m_Size: {x: 2.7468467, y: 1.0601171, z: 1.104997}
+  m_Center: {x: -0.0032827854, y: 0.5411579, z: 0.0049652457}
 --- !u!1 &1451887378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100048, guid: 08a461955fe2451479862746f7aaf670, type: 3}
@@ -7757,6 +7833,10 @@ PrefabInstance:
       value: mesh_desk_01 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -8007,12 +8087,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100000, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8021,6 +8113,10 @@ PrefabInstance:
     - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_Name
       value: mesh_sofa (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8100,8 +8196,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.7468467, y: 1.0953153, z: 1.104997}
-  m_Center: {x: -0.0032827854, y: 0.558757, z: 0.0049652457}
+  m_Size: {x: 2.7468467, y: 1.0508084, z: 1.104997}
+  m_Center: {x: -0.0032827854, y: 0.53650355, z: 0.0049652457}
 --- !u!1001 &1602196403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8112,6 +8208,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
       propertyPath: m_Name
       value: mesh_table_b_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8191,8 +8291,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.8198466, y: 1.0002044, z: 0.89459205}
-  m_Center: {x: 0.96556985, y: 0.5001022, z: 0}
+  m_Size: {x: 2.8198466, y: 0.9762862, z: 0.89459205}
+  m_Center: {x: 0.96556985, y: 0.4881431, z: 0}
 --- !u!1001 &1616305186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8286,12 +8386,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100000, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8300,6 +8412,10 @@ PrefabInstance:
     - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_Name
       value: mesh_sofa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ad168f78fcb2d214c978f0f537eba8ca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8379,8 +8495,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.7468467, y: 1.0953153, z: 1.104997}
-  m_Center: {x: -0.0032827854, y: 0.558757, z: 0.0049652457}
+  m_Size: {x: 2.7468467, y: 1.0555221, z: 1.104997}
+  m_Center: {x: -0.0032827854, y: 0.5388604, z: 0.0049652457}
 --- !u!1001 &1649231590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9130,6 +9246,10 @@ PrefabInstance:
       value: mesh_table_a_01 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6f2edcb5c8690d446b62b285782079db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6f2edcb5c8690d446b62b285782079db, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -9324,6 +9444,10 @@ PrefabInstance:
       value: mesh_table_b_01 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6d2bdd4720a7ac44687edae6f95a1258, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -9401,8 +9525,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.8198466, y: 1.0136851, z: 0.89459205}
-  m_Center: {x: 0.96556985, y: 0.50684255, z: 0}
+  m_Size: {x: 2.8198466, y: 0.97701526, z: 0.89459205}
+  m_Center: {x: 0.96556985, y: 0.48850763, z: 0}
 --- !u!1 &1794613089
 GameObject:
   m_ObjectHideFlags: 0
@@ -9983,6 +10107,10 @@ PrefabInstance:
       value: mesh_table_a_01
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6f2edcb5c8690d446b62b285782079db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6f2edcb5c8690d446b62b285782079db, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10242,6 +10370,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_Name
       value: mesh_desk_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 42061b0f2f1d4b144b8dcfb9723c9e6e, type: 3}
       propertyPath: m_StaticEditorFlags
