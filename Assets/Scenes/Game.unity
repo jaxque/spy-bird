@@ -377,7 +377,8 @@ MonoBehaviour:
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 64
+  wingFlaps: 0
 --- !u!114 &10212067
 MonoBehaviour:
   m_ObjectHideFlags: 0

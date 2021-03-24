@@ -22,6 +22,8 @@ public class playerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+    public float wingFlaps = 0;
+
 
     // Update is called once per frame
     void Update()
@@ -43,9 +45,11 @@ public class playerMovement : MonoBehaviour
 
         
 
-        if (Input.GetButtonDown("fly"))
+        if (Input.GetButtonDown("fly") && wingFlaps < 4)
         {
             Hover = !Hover;
+
+            wingFlaps++;
         }
 
         if (Hover == false)
