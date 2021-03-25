@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-
     public CharacterController controller;
-
 
     public bool Hover = false; 
     
@@ -24,12 +22,9 @@ public class playerMovement : MonoBehaviour
 
     public float wingFlaps = 3;
 
-
     // Update is called once per frame
     void Update()
     {
-       
-
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
@@ -42,8 +37,6 @@ public class playerMovement : MonoBehaviour
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
 
         }
-
-        
 
         if (Input.GetButtonDown("fly") && wingFlaps > 0)
         {
