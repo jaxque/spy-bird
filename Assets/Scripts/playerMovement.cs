@@ -20,7 +20,7 @@ public class playerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
-    public float wingFlaps = 5;
+    public float wingFlaps = 6;
 
     // Update is called once per frame
     void Update()

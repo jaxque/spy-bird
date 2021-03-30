@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerInteract : MonoBehaviour
+public class Playerinteract1 : MonoBehaviour
 {
+    // Start is called before the first frame update
     public GameObject currentObject = null;
 
     // Detects object
@@ -27,8 +28,6 @@ public class PlayerInteract : MonoBehaviour
             }
         }
     }
-
-  
 
     private void Update()
     {
