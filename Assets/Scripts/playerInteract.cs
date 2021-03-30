@@ -30,7 +30,7 @@ public class PlayerInteract : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Interact") && currentObject)
+        if (Input.GetButtonDown("Pick up") && currentObject)
         {
             // Does something
             currentObject.SendMessage("DoInteraction");
