@@ -34,7 +34,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 0
     optimizeGameObjects: 1
-    motionNodeName: <Root Transform>
+    motionNodeName: RootNode.0
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 

@@ -15,6 +15,7 @@ public class Bird_animation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKey(KeyCode.Space))
         {
             anim.SetBool("jump", true);
