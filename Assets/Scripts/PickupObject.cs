@@ -9,7 +9,7 @@ public class PickupObject : MonoBehaviour
     {
         if (collider.gameObject.tag == "Player")
         {
-            print("Item obtained");
+            print("Item obtained.");
             Destroy(gameObject);
         }
 
