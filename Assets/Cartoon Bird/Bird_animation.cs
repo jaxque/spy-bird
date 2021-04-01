@@ -24,15 +24,15 @@ public class Bird_animation : MonoBehaviour
             anim.SetBool("jump", false);
         }
 
-        if (Input.GetKeyDown("LeftControl"))
+        if (Input.GetButton("LeftControl"))
         {
             anim.SetBool("fly", true);
-            //anim.Play("skeletal.3|hover_skeletal.3");
+            anim.Play("skeletal.3|hover_skeletal.3");
         }
-        else if (Input.GetKeyDown("LeftControl"))
+        else if (Input.GetButtonDown("LeftControl"))
         {
             anim.SetBool("fly", false);
-            //anim.enabled = false;
+            anim.enabled = false;
         }
     }
 }
