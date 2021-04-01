@@ -23,7 +23,7 @@ public class GameScript : MonoBehaviour
         //Debug.Log("Score:" + PlayerStats.PlayerScore);
 
         gameTimerElapsed = false;
-        gameTimer = new Timer(5000f);
+        gameTimer = new Timer(60000f);
         gameTimer.AutoReset = true;
         gameTimer.Enabled = true;
         gameTimer.Elapsed += GameTimer_Elapsed;
@@ -37,8 +37,6 @@ public class GameScript : MonoBehaviour
     {
         gameTimerElapsed = true;
         Debug.Log("Timer completed");
-        
-
     }
 
     // Update is called once per frame
