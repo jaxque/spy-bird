@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class Guard_01_AI : MonoBehaviour
 {
     public Transform[] waypoints;
+
+    public float Timer = 0;
 
     int currentWaypoint = 0;
 
@@ -31,6 +34,10 @@ public class Guard_01_AI : MonoBehaviour
                 break;
             case GuardState.Pursue:
                 navMA.SetDestination(playerTarget.transform.position);
+                if (Timer > 5)
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                }
                 break;
             default:
                 break;
@@ -65,6 +72,7 @@ public class Guard_01_AI : MonoBehaviour
             
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Pursue);
+            Timer = Timer + 1; 
         }
     }
 
