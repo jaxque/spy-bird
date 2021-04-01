@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class playerMovement : MonoBehaviour
@@ -22,7 +23,6 @@ public class playerMovement : MonoBehaviour
 
     public float wingFlaps = 6;
 
-    // Update is called once per frame
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -32,16 +32,17 @@ public class playerMovement : MonoBehaviour
             velocity.y = -2f;
         }
 
+        // Spacebar to jump
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
 
         }
 
+        // Ctrl to fly
         if (Input.GetButtonDown("fly") && wingFlaps > 0)
         {
             Hover = !Hover;
-
             wingFlaps--;
         }
 

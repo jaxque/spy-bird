@@ -72,11 +72,16 @@ public class Guard_01_AI : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Patrol);
         }
-
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "Obstacle")
+        {
+            Debug.Log("Hit");
+        }
     }
 }
 
