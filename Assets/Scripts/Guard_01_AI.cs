@@ -72,7 +72,7 @@ public class Guard_01_AI : MonoBehaviour
             
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Pursue);
-            Timer = Timer + 1; 
+            Timer = (Timer + 1) * Time.deltaTime; 
         }
     }
 
