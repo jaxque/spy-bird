@@ -71,12 +71,13 @@ public class Guard_01_AI : MonoBehaviour
             
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Pursue);
-            Timer = Timer + 1; 
+            Timer++; 
+        }
 
-            if (Timer > 5)
-            {
-                player.transform.position = spawnpoint.transform.position;
-            }
+        if (other.CompareTag("Player") && Timer > 10)
+        {
+            player.transform.position = spawnpoint.transform.position;
+            Physics.SyncTransforms();
         }
     }
 
@@ -86,6 +87,7 @@ public class Guard_01_AI : MonoBehaviour
         {
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Patrol);
+            //Timer = 0;
         }
     }
     private void OnCollisionEnter(Collision collision)
