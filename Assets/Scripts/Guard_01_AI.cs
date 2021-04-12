@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class Guard_01_AI : MonoBehaviour
 {
+    [SerializeField] private Transform player;
+    [SerializeField] private Transform spawnpoint;
+
     public Transform[] waypoints;
 
     public float Timer = 0;
@@ -34,10 +37,6 @@ public class Guard_01_AI : MonoBehaviour
                 break;
             case GuardState.Pursue:
                 navMA.SetDestination(playerTarget.transform.position);
-                if (Timer > 5)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                }
                 break;
             default:
                 break;
@@ -72,7 +71,12 @@ public class Guard_01_AI : MonoBehaviour
             
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Pursue);
-            Timer = (Timer + 1) * Time.deltaTime; 
+            Timer = Timer + 1; 
+
+            if (Timer > 5)
+            {
+                player.transform.position = spawnpoint.transform.position;
+            }
         }
     }
 

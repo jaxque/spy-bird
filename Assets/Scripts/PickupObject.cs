@@ -5,20 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class PickupObject : MonoBehaviour
 {
-    public bool hasPackage = false; 
+    public bool hasPackage = false;
+    
+   
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "Player")
+        if (collider.gameObject.tag == "Key")
         {
             print("Item obtained");
-            Destroy(gameObject);
+
+            hasPackage = true;
             
         }
 
-        if ( collider.gameObject.tag == "Finish")
+        if ( collider.gameObject.tag == "Finish" && hasPackage)
         {
             print("WINNER WINNER CHICKEN DINNER!!!!");
-           // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 

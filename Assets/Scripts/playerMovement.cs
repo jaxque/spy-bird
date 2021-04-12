@@ -52,4 +52,12 @@ public class playerMovement : MonoBehaviour
             controller.Move(velocity * Time.deltaTime);
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "Obstacle")
+        {
+            Debug.Log("Hit");
+        }
+    }
 }
