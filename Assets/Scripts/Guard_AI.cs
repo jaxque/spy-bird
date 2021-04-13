@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
-public class Guard_01_AI : MonoBehaviour
+public class Guard_AI : MonoBehaviour
 {
     [SerializeField] private Transform player;
     [SerializeField] private Transform spawnpoint;
@@ -15,7 +15,7 @@ public class Guard_01_AI : MonoBehaviour
 
     int currentWaypoint = 0;
 
-    enum GuardState {Patrol, Pursue};
+    enum GuardState { Patrol, Pursue };
     GuardState currentState = GuardState.Patrol;
 
     NavMeshAgent navMA;
@@ -44,7 +44,6 @@ public class Guard_01_AI : MonoBehaviour
         currentState = newState;
     }
 
-    // Update is called once per frame
     void Update()
     {
         switch (currentState)
@@ -52,7 +51,7 @@ public class Guard_01_AI : MonoBehaviour
             case GuardState.Patrol:
                 if (navMA.remainingDistance < 0.04f)
                 {
-                    currentWaypoint = (currentWaypoint +1) % waypoints.Length;
+                    currentWaypoint = (currentWaypoint + 1) % waypoints.Length;
                     navMA.SetDestination(waypoints[currentWaypoint].position);
                 }
                 break;
@@ -61,17 +60,17 @@ public class Guard_01_AI : MonoBehaviour
             default:
                 break;
         }
-        
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            
+
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Pursue);
-            Timer++; 
+            Timer++;
         }
 
         if (other.CompareTag("Player") && Timer > 10)
