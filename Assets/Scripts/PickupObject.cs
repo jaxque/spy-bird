@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PickupObject : MonoBehaviour
 {
     public bool hasPackage = false;
-    
+    //public AudioClip FolderCollect;
    
     private void OnTriggerEnter(Collider collider)
     {
@@ -15,6 +15,8 @@ public class PickupObject : MonoBehaviour
             print("Item obtained");
 
             hasPackage = true;
+
+            //AudioSource.PlayClipAtPoint(FolderCollect, transform.position);
             
         }
 
