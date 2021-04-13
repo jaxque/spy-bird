@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtonController : MonoBehaviour
 {
+
     // Use this for initialization
     public int index;
     [SerializeField] bool keyDown;
@@ -59,19 +60,10 @@ public class MenuButtonController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         {
             Debug.Log("Space pressed");
-            // New Game
             if(index == 0)
             {
                 SceneManager.LoadScene("GameScene");
             }
-
-            // How To Play
-            if(index == 1)
-            {
-                SceneManager.LoadScene("HowToPlayScene");
-            }
-
-            // Quit Game
             if (index == 2)
             {
                 Debug.Log("QUIT!");
