@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 10212070}
   - component: {fileID: 10212069}
   - component: {fileID: 10212071}
+  - component: {fileID: 10212072}
   m_Layer: 0
   m_Name: character controller
   m_TagString: Player
@@ -466,6 +467,102 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.42424512
   m_Center: {x: 0.0074331677, y: -0.1248669, z: -0.46050534}
+--- !u!82 &10212072
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10212063}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b0f03b67311092d47bf11f0a639d6691, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.807
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &10944254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1722,12 +1819,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95390667745fb54fab114f9bea3a22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 10212065}
-  spawnpoint: {fileID: 728932008}
-  waypoints:
-  - {fileID: 430088195}
-  - {fileID: 2096765768}
-  Timer: 0
 --- !u!64 &236037313
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4947,7 +5038,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735856756}
-  m_LocalRotation: {x: 0.10109067, y: -0.008854189, z: 0.00089972076, w: 0.9948374}
+  m_LocalRotation: {x: 0.10109067, y: -0.008854197, z: 0.0008997217, w: 0.9948374}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6149,7 +6240,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910277085}
-  m_LocalRotation: {x: 0.10223806, y: -0.00885314, z: 0.00090993213, w: 0.99472016}
+  m_LocalRotation: {x: 0.10223806, y: -0.008853157, z: 0.0009099339, w: 0.99472016}
   m_LocalPosition: {x: 1.3169929, y: 1.8628571, z: -32.38852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -6374,14 +6465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95390667745fb54fab114f9bea3a22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 10212065}
-  spawnpoint: {fileID: 728932008}
-  waypoints:
-  - {fileID: 239067898}
-  - {fileID: 632618552}
-  - {fileID: 1287805734}
-  - {fileID: 321982315}
-  Timer: 0
 --- !u!64 &942018491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7351,14 +7434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95390667745fb54fab114f9bea3a22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 10212065}
-  spawnpoint: {fileID: 728932008}
-  waypoints:
-  - {fileID: 282519336}
-  - {fileID: 422747954}
-  - {fileID: 1769476797}
-  - {fileID: 1324581603}
-  Timer: 0
 --- !u!195 &1030896437
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8449,12 +8524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95390667745fb54fab114f9bea3a22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 10212065}
-  spawnpoint: {fileID: 728932008}
-  waypoints:
-  - {fileID: 2095662830}
-  - {fileID: 1461363429}
-  Timer: 0
 --- !u!65 &1260028332
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10414,12 +10483,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95390667745fb54fab114f9bea3a22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 10212065}
-  spawnpoint: {fileID: 728932008}
-  waypoints:
-  - {fileID: 1862294337}
-  - {fileID: 859233499}
-  Timer: 0
 --- !u!65 &1451887380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11003,14 +11066,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95390667745fb54fab114f9bea3a22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 10212065}
-  spawnpoint: {fileID: 728932008}
-  waypoints:
-  - {fileID: 1284111400}
-  - {fileID: 249340970}
-  - {fileID: 1312731238}
-  - {fileID: 607800577}
-  Timer: 0
 --- !u!64 &1534688075
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12356,7 +12411,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667453505}
-  m_LocalRotation: {x: 0.1297313, y: -0.008824564, z: 0.0011546257, w: 0.99150926}
+  m_LocalRotation: {x: 0.1297313, y: -0.00882458, z: 0.0011546279, w: 0.99150926}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -13916,14 +13971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95390667745fb54fab114f9bea3a22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 10212065}
-  spawnpoint: {fileID: 728932008}
-  waypoints:
-  - {fileID: 1586344511}
-  - {fileID: 1994786435}
-  - {fileID: 415976908}
-  - {fileID: 1573273938}
-  Timer: 0
 --- !u!64 &1805203339
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15831,13 +15878,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95390667745fb54fab114f9bea3a22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 10212065}
-  spawnpoint: {fileID: 728932008}
-  waypoints:
-  - {fileID: 1526632499}
-  - {fileID: 1527121885}
-  - {fileID: 1457275619}
-  Timer: 0
 --- !u!64 &2096428691
 MeshCollider:
   m_ObjectHideFlags: 0
