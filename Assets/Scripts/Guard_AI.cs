@@ -10,16 +10,13 @@ public class Guard_AI : MonoBehaviour
     [SerializeField] private Transform spawnpoint;
 
     public Transform[] waypoints;
-
     public float Timer = 0;
-
     int currentWaypoint = 0;
 
     enum GuardState { Patrol, Pursue };
     GuardState currentState = GuardState.Patrol;
 
     NavMeshAgent navMA;
-
     GameObject playerTarget;
 
     // Start is called before the first frame update
@@ -71,12 +68,11 @@ public class Guard_AI : MonoBehaviour
 
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Pursue);
-            Timer++;
         }
 
-        if (other.CompareTag("Player") && Timer > 10)
+        if (other.CompareTag("Player"))
         {
-            player.transform.position = spawnpoint.transform.position;
+            playerTarget.transform.position = spawnpoint.transform.position;
             Physics.SyncTransforms();
         }
     }
@@ -87,7 +83,6 @@ public class Guard_AI : MonoBehaviour
         {
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Patrol);
-            //Timer = 0;
         }
     }
     private void OnCollisionEnter(Collision collision)

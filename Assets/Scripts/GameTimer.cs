@@ -17,10 +17,12 @@ public class GameTimer : MonoBehaviour
         {
             timeValue -= Time.deltaTime;
         }
+
+        // game over
         else
         {
             timeValue = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("EndScene");
         }
 
         DisplayTime(timeValue);

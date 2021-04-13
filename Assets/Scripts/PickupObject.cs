@@ -9,18 +9,17 @@ public class PickupObject : MonoBehaviour
        
     private void OnTriggerEnter(Collider collider)
     {
+        // Item collected
         if (collider.gameObject.tag == "Key")
         {
-            print("Item obtained");
-
             hasPackage = true;
             
         }
 
+        // Successfully returns to starting point with key item
         if ( collider.gameObject.tag == "Finish" && hasPackage)
         {
-            print("WINNER WINNER CHICKEN DINNER!!!!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("WinScene");
         }
     }
 

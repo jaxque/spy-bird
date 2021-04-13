@@ -6,7 +6,8 @@ TagManager:
   tags:
   - Obstacle
   - Key
-  - spwnpoint
+  - AboutToStartCanvas
+  - spawnpoint
   layers:
   - Default
   - TransparentFX
