@@ -49,7 +49,7 @@ public class GameScript : MonoBehaviour
 
         if(gameTimerElapsed)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("EndScene");
         }
     }
 }
