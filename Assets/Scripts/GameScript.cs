@@ -18,7 +18,6 @@ public class GameScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         PlayerStats.PlayerScore = 0;
         //Debug.Log("Score:" + PlayerStats.PlayerScore);
 
