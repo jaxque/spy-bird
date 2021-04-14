@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Guard_AI : MonoBehaviour
@@ -10,7 +11,6 @@ public class Guard_AI : MonoBehaviour
     [SerializeField] private Transform spawnpoint;
 
     public Transform[] waypoints;
-    public float Timer = 0;
     int currentWaypoint = 0;
 
     enum GuardState { Patrol, Pursue };
@@ -19,11 +19,17 @@ public class Guard_AI : MonoBehaviour
     NavMeshAgent navMA;
     GameObject playerTarget;
 
+    public Text CaughtMsg;
+    private float timeAppear = 3f;
+    private float timeDisappear;
+
     // Start is called before the first frame update
     void Start()
     {
         navMA = GetComponent<NavMeshAgent>();
         navMA.SetDestination(waypoints[currentWaypoint].position);
+
+        CaughtMsg.enabled = false;
     }
 
     void SwitchToState(GuardState newState)
@@ -59,21 +65,31 @@ public class Guard_AI : MonoBehaviour
                 break;
         }
 
+        // Caught message disappears
+        if (CaughtMsg.enabled && (Time.time >= timeDisappear))
+        {
+            CaughtMsg.enabled = false;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        // Guard detects player
         if (other.gameObject.tag == "Player")
         {
-
             playerTarget = other.gameObject;
             SwitchToState(GuardState.Pursue);
         }
 
+        // Guard catches player
         if (other.CompareTag("Player"))
         {
             playerTarget.transform.position = spawnpoint.transform.position;
             Physics.SyncTransforms();
+
+            // Caught message appears
+            CaughtMsg.enabled = true;
+            timeDisappear = Time.time + timeAppear;
         }
     }
 
