@@ -19,17 +19,11 @@ public class guardBehavior : MonoBehaviour
     NavMeshAgent navMA;
     GameObject playerTarget;
 
-    public Text CaughtMsg;
-    private float timeAppear = 3f;
-    private float timeDisappear;
-
     // Start is called before the first frame update
     void Start()
     {
         navMA = GetComponent<NavMeshAgent>();
         navMA.SetDestination(waypoints[currentWaypoint].position);
-
-        CaughtMsg.enabled = false;
     }
 
     void SwitchToState(GuardState newState)
@@ -64,12 +58,6 @@ public class guardBehavior : MonoBehaviour
             default:
                 break;
         }
-
-        // Caught message disappears
-        if (CaughtMsg.enabled && (Time.time >= timeDisappear))
-        {
-            CaughtMsg.enabled = false;
-        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -86,10 +74,6 @@ public class guardBehavior : MonoBehaviour
         {
             playerTarget.transform.position = spawnpoint.transform.position;
             Physics.SyncTransforms();
-
-            // Caught message appears
-            CaughtMsg.enabled = true;
-            timeDisappear = Time.time + timeAppear;
         }
     }
 

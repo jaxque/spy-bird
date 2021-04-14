@@ -19,7 +19,7 @@ public class HIDe : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             AudioSource.PlayClipAtPoint(FolderCollect, transform.position);
         }
         // Enable text

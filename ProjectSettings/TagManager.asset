@@ -8,6 +8,7 @@ TagManager:
   - Key
   - AboutToStartCanvas
   - spawnpoint
+  - Guard
   layers:
   - Default
   - TransparentFX

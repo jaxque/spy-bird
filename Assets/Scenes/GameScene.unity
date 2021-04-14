@@ -439,6 +439,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasPackage: 0
+  folder: {fileID: 464915929}
+  GotFolder: {fileID: 1793378901}
 --- !u!54 &10212070
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -574,6 +576,10 @@ PrefabInstance:
     - target: {fileID: 100048, guid: 1d549942b3bfb7f43a1977dd6aa83a3d, type: 3}
       propertyPath: m_Name
       value: worker_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 1d549942b3bfb7f43a1977dd6aa83a3d, type: 3}
+      propertyPath: m_TagString
+      value: Guard
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 1d549942b3bfb7f43a1977dd6aa83a3d, type: 3}
       propertyPath: m_RootOrder
@@ -1386,6 +1392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FindFolder: {fileID: 79163843}
+  GotFolder: {fileID: 1793378901}
 --- !u!1 &115117717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: a4f29f93f6cf7c844b4c2bbbf5fb3e9f, type: 3}
@@ -1918,7 +1925,6 @@ MonoBehaviour:
   waypoints:
   - {fileID: 430088195}
   - {fileID: 2096765768}
-  CaughtMsg: {fileID: 0}
 --- !u!64 &236037313
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4101,7 +4107,6 @@ RectTransform:
   - {fileID: 1409080315}
   - {fileID: 79163842}
   - {fileID: 1793378903}
-  - {fileID: 1579660083}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4392,6 +4397,10 @@ PrefabInstance:
     - target: {fileID: 100048, guid: e6cfeff43f9f8d34b88b0b612909ac29, type: 3}
       propertyPath: m_Name
       value: worker_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: e6cfeff43f9f8d34b88b0b612909ac29, type: 3}
+      propertyPath: m_TagString
+      value: Guard
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: e6cfeff43f9f8d34b88b0b612909ac29, type: 3}
       propertyPath: m_RootOrder
@@ -5362,6 +5371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: worker_01
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 99ce9a003a52a734eb94c75c86ed4e3d, type: 3}
+      propertyPath: m_TagString
+      value: Guard
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 99ce9a003a52a734eb94c75c86ed4e3d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -6260,6 +6273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: worker_04
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 0a9d829b6431f35448b98cdf4aa9fda9, type: 3}
+      propertyPath: m_TagString
+      value: Guard
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 0a9d829b6431f35448b98cdf4aa9fda9, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -6674,7 +6691,6 @@ MonoBehaviour:
   - {fileID: 632618552}
   - {fileID: 1287805734}
   - {fileID: 321982315}
-  CaughtMsg: {fileID: 0}
 --- !u!64 &942018491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7651,7 +7667,6 @@ MonoBehaviour:
   - {fileID: 422747954}
   - {fileID: 1769476797}
   - {fileID: 1324581603}
-  CaughtMsg: {fileID: 0}
 --- !u!195 &1030896437
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8747,7 +8762,6 @@ MonoBehaviour:
   waypoints:
   - {fileID: 2095662830}
   - {fileID: 1461363429}
-  CaughtMsg: {fileID: 0}
 --- !u!65 &1260028332
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9510,6 +9524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: worker_03
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 08a461955fe2451479862746f7aaf670, type: 3}
+      propertyPath: m_TagString
+      value: Guard
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 08a461955fe2451479862746f7aaf670, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -9788,6 +9806,10 @@ PrefabInstance:
     - target: {fileID: 100048, guid: dc523cb225f130945948050f34f17565, type: 3}
       propertyPath: m_Name
       value: worker_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: dc523cb225f130945948050f34f17565, type: 3}
+      propertyPath: m_TagString
+      value: Guard
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: dc523cb225f130945948050f34f17565, type: 3}
       propertyPath: m_RootOrder
@@ -10350,6 +10372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: worker_07
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 185bfac8d64a19645a089256063d89ca, type: 3}
+      propertyPath: m_TagString
+      value: Guard
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 185bfac8d64a19645a089256063d89ca, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -10713,7 +10739,6 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1862294337}
   - {fileID: 859233499}
-  CaughtMsg: {fileID: 0}
 --- !u!65 &1451887380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11304,7 +11329,6 @@ MonoBehaviour:
   - {fileID: 249340970}
   - {fileID: 1312731238}
   - {fileID: 607800577}
-  CaughtMsg: {fileID: 0}
 --- !u!64 &1534688075
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11983,99 +12007,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: df376604cbc0d73419a5eb96e06a6a06, type: 3}
   m_PrefabInstance: {fileID: 1578626450}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1579660082
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1579660083}
-  - component: {fileID: 1579660086}
-  - component: {fileID: 1579660085}
-  - component: {fileID: 1579660084}
-  m_Layer: 5
-  m_Name: CaughtMsg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1579660083
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579660082}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 592710630}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13, y: 76}
-  m_SizeDelta: {x: 401.8119, y: 61.4419}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1579660084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579660082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ecb2c6b79468854884df91594aa352b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FindFolder: {fileID: 1579660085}
---- !u!114 &1579660085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579660082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 165616cc978a7c344a6d4dfe74db7651, type: 3}
-    m_FontSize: 45
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 50
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: You got caught!
---- !u!222 &1579660086
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579660082}
-  m_CullTransparentMesh: 1
 --- !u!1 &1586344510
 GameObject:
   m_ObjectHideFlags: 0
@@ -12990,6 +12921,10 @@ PrefabInstance:
     - target: {fileID: 100048, guid: b76b28eac0febc743801947f6ead1ded, type: 3}
       propertyPath: m_Name
       value: worker_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: b76b28eac0febc743801947f6ead1ded, type: 3}
+      propertyPath: m_TagString
+      value: Guard
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: b76b28eac0febc743801947f6ead1ded, type: 3}
       propertyPath: m_RootOrder
@@ -14287,9 +14222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2612ebcde794d1d4fae14eea8882b1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GotFolder: {fileID: 1793378901}
-  timeAppear: 3
-  timeDisappear: 0
 --- !u!1 &1794613089
 GameObject:
   m_ObjectHideFlags: 0
@@ -14407,7 +14339,6 @@ MonoBehaviour:
   - {fileID: 1994786435}
   - {fileID: 415976908}
   - {fileID: 1573273938}
-  CaughtMsg: {fileID: 0}
 --- !u!64 &1805203339
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16415,7 +16346,6 @@ MonoBehaviour:
   - {fileID: 1526632499}
   - {fileID: 1527121885}
   - {fileID: 1457275619}
-  CaughtMsg: {fileID: 0}
 --- !u!64 &2096428691
 MeshCollider:
   m_ObjectHideFlags: 0
