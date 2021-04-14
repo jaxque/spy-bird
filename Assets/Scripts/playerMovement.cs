@@ -16,6 +16,8 @@ public class playerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    public AudioClip Objectcollide;
+
     //public bool hover = false;
 
     Vector3 velocity;
@@ -58,6 +60,7 @@ public class playerMovement : MonoBehaviour
         if (collision.collider.tag == "Obstacle")
         {
             Debug.Log("Hit");
+            AudioSource.PlayClipAtPoint(Objectcollide, transform.position);
         }
     }
 }
