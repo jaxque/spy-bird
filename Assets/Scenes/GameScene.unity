@@ -464,10 +464,10 @@ SphereCollider:
   m_GameObject: {fileID: 10212063}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.42424512
-  m_Center: {x: 0.0074331677, y: -0.1248669, z: -0.46050534}
+  m_Radius: 0.5276262
+  m_Center: {x: -0.01671475, y: -0.124866836, z: -0.28210115}
 --- !u!82 &10212072
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1328,7 +1328,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13, y: 267}
+  m_AnchoredPosition: {x: 13, y: 77}
   m_SizeDelta: {x: 401.8119, y: 61.4419}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &79163843
@@ -1918,7 +1918,6 @@ MonoBehaviour:
   waypoints:
   - {fileID: 430088195}
   - {fileID: 2096765768}
-  Timer: 0
   CaughtMsg: {fileID: 1579660085}
 --- !u!64 &236037313
 MeshCollider:
@@ -1932,7 +1931,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_Mesh: {fileID: 3613567641014311022, guid: 55c209855a886cd46b1df434b3daf015, type: 3}
 --- !u!195 &236037314
 NavMeshAgent:
@@ -6675,7 +6674,6 @@ MonoBehaviour:
   - {fileID: 632618552}
   - {fileID: 1287805734}
   - {fileID: 321982315}
-  Timer: 0
   CaughtMsg: {fileID: 1579660085}
 --- !u!64 &942018491
 MeshCollider:
@@ -6689,7 +6687,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_Mesh: {fileID: 3613567641014311022, guid: 55c209855a886cd46b1df434b3daf015, type: 3}
 --- !u!195 &942018492
 NavMeshAgent:
@@ -7632,7 +7630,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_Mesh: {fileID: 3613567641014311022, guid: 55c209855a886cd46b1df434b3daf015, type: 3}
 --- !u!114 &1030896436
 MonoBehaviour:
@@ -7653,7 +7651,6 @@ MonoBehaviour:
   - {fileID: 422747954}
   - {fileID: 1769476797}
   - {fileID: 1324581603}
-  Timer: 0
   CaughtMsg: {fileID: 1579660085}
 --- !u!195 &1030896437
 NavMeshAgent:
@@ -8745,12 +8742,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67ce7daaac7a104bbc147ed2deaa319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 10212065}
+  player: {fileID: 0}
   spawnpoint: {fileID: 0}
   waypoints:
   - {fileID: 2095662830}
   - {fileID: 1461363429}
-  Timer: 0
   CaughtMsg: {fileID: 1579660085}
 --- !u!65 &1260028332
 BoxCollider:
@@ -8777,7 +8773,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_Mesh: {fileID: 3613567641014311022, guid: 55c209855a886cd46b1df434b3daf015, type: 3}
 --- !u!195 &1260028334
 NavMeshAgent:
@@ -10717,7 +10713,6 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1862294337}
   - {fileID: 859233499}
-  Timer: 0
   CaughtMsg: {fileID: 1579660085}
 --- !u!65 &1451887380
 BoxCollider:
@@ -10744,7 +10739,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_Mesh: {fileID: 3613567641014311022, guid: 55c209855a886cd46b1df434b3daf015, type: 3}
 --- !u!195 &1451887382
 NavMeshAgent:
@@ -11309,7 +11304,6 @@ MonoBehaviour:
   - {fileID: 249340970}
   - {fileID: 1312731238}
   - {fileID: 607800577}
-  Timer: 0
   CaughtMsg: {fileID: 1579660085}
 --- !u!64 &1534688075
 MeshCollider:
@@ -11323,7 +11317,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_Mesh: {fileID: 3613567641014311022, guid: 55c209855a886cd46b1df434b3daf015, type: 3}
 --- !u!195 &1534688076
 NavMeshAgent:
@@ -14413,7 +14407,6 @@ MonoBehaviour:
   - {fileID: 1994786435}
   - {fileID: 415976908}
   - {fileID: 1573273938}
-  Timer: 0
   CaughtMsg: {fileID: 1579660085}
 --- !u!64 &1805203339
 MeshCollider:
@@ -14427,7 +14420,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_Mesh: {fileID: 3613567641014311022, guid: 55c209855a886cd46b1df434b3daf015, type: 3}
 --- !u!195 &1805203340
 NavMeshAgent:
@@ -16422,7 +16415,6 @@ MonoBehaviour:
   - {fileID: 1526632499}
   - {fileID: 1527121885}
   - {fileID: 1457275619}
-  Timer: 0
   CaughtMsg: {fileID: 1579660085}
 --- !u!64 &2096428691
 MeshCollider:
@@ -16436,7 +16428,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 30
+  m_CookingOptions: 0
   m_Mesh: {fileID: 3613567641014311022, guid: 55c209855a886cd46b1df434b3daf015, type: 3}
 --- !u!195 &2096428692
 NavMeshAgent:
