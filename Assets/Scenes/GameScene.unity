@@ -575,6 +575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: worker_02
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 1d549942b3bfb7f43a1977dd6aa83a3d, type: 3}
+      propertyPath: m_TagString
+      value: 'Office Worker '
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 1d549942b3bfb7f43a1977dd6aa83a3d, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -4076,7 +4080,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 910277088}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -4392,6 +4396,10 @@ PrefabInstance:
     - target: {fileID: 100048, guid: e6cfeff43f9f8d34b88b0b612909ac29, type: 3}
       propertyPath: m_Name
       value: worker_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: e6cfeff43f9f8d34b88b0b612909ac29, type: 3}
+      propertyPath: m_TagString
+      value: 'Office Worker '
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: e6cfeff43f9f8d34b88b0b612909ac29, type: 3}
       propertyPath: m_RootOrder
@@ -5362,6 +5370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: worker_01
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 99ce9a003a52a734eb94c75c86ed4e3d, type: 3}
+      propertyPath: m_TagString
+      value: 'Office Worker '
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 99ce9a003a52a734eb94c75c86ed4e3d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -6259,6 +6271,10 @@ PrefabInstance:
     - target: {fileID: 100048, guid: 0a9d829b6431f35448b98cdf4aa9fda9, type: 3}
       propertyPath: m_Name
       value: worker_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 0a9d829b6431f35448b98cdf4aa9fda9, type: 3}
+      propertyPath: m_TagString
+      value: 'Office Worker '
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 0a9d829b6431f35448b98cdf4aa9fda9, type: 3}
       propertyPath: m_RootOrder
@@ -9510,6 +9526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: worker_03
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 08a461955fe2451479862746f7aaf670, type: 3}
+      propertyPath: m_TagString
+      value: 'Office Worker '
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 08a461955fe2451479862746f7aaf670, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -9788,6 +9808,10 @@ PrefabInstance:
     - target: {fileID: 100048, guid: dc523cb225f130945948050f34f17565, type: 3}
       propertyPath: m_Name
       value: worker_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: dc523cb225f130945948050f34f17565, type: 3}
+      propertyPath: m_TagString
+      value: 'Office Worker '
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: dc523cb225f130945948050f34f17565, type: 3}
       propertyPath: m_RootOrder
@@ -10349,6 +10373,10 @@ PrefabInstance:
     - target: {fileID: 100048, guid: 185bfac8d64a19645a089256063d89ca, type: 3}
       propertyPath: m_Name
       value: worker_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 185bfac8d64a19645a089256063d89ca, type: 3}
+      propertyPath: m_TagString
+      value: 'Office Worker '
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 185bfac8d64a19645a089256063d89ca, type: 3}
       propertyPath: m_RootOrder
@@ -12991,6 +13019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: worker_06
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: b76b28eac0febc743801947f6ead1ded, type: 3}
+      propertyPath: m_TagString
+      value: 'Office Worker '
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: b76b28eac0febc743801947f6ead1ded, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -14287,9 +14319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2612ebcde794d1d4fae14eea8882b1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GotFolder: {fileID: 1793378901}
-  timeAppear: 3
-  timeDisappear: 0
 --- !u!1 &1794613089
 GameObject:
   m_ObjectHideFlags: 0

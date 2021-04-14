@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class GameTimer : MonoBehaviour
 {
-    public float timeValue = 120;
+    //public float timeValue = 120;
+    public float timeValue = 10;
     public Text timerText;
 
     // Update is called once per frame

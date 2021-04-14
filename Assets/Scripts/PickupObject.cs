@@ -21,6 +21,11 @@ public class PickupObject : MonoBehaviour
         {
             SceneManager.LoadScene("WinScene");
         }
+
+        if (collider.gameObject.tag == "Office Worker")
+        {
+            SceneManager.LoadScene("EndScene");
+        }
     }
 
     
